@@ -2,7 +2,7 @@
 // Necessary because a content script has no access to the page environment, with the Ace Editor instance.
 
 window.addEventListener('load', () => {
-  if (location=='https://www.overleaf.com/project') return; // Don't load on the project selection page
+  if (location=='https://latex.hu-berlin.de/project') return; // Don't load on the project selection page
   
   console.log("Loading Shortleaf")
   var s = document.createElement('script');
