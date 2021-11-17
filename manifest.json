@@ -7,7 +7,7 @@
       "service_worker": "default_config.js"
   },
   "content_scripts": [{
-    "matches": ["https://*.overleaf.com/project/*"],
+    "matches": ["https://*.latex.hu-berlin.de/project/*"],
     "js": ["content-script.js"]
   }],
   "web_accessible_resources": [ {
